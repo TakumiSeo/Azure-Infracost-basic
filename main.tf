@@ -149,7 +149,7 @@ resource "azurerm_linux_virtual_machine" "my_terraform_vm" {
   }
 }
 
-resource "azurerm_linux_virtual_machine" "my_terraform_vm" {
+resource "azurerm_linux_virtual_machine" "my_terraform_vm2" {
   name                  = "vm-2"
   location              = azurerm_resource_group.rg.location
   resource_group_name   = azurerm_resource_group.rg.name
